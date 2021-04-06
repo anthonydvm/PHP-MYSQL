@@ -24,15 +24,17 @@
 <body>
     <div>
         <?php
-            $hora = 8;
+            $hora = 20;
 
-            if ($hora > 6 && $hora < 12){
+            if($hora > 6 && $hora < 12){
                 echo "<h1>Buenos dias</h1>";
+            }else if($hora >= 12 && $hora <= 18){
+                echo "<h1>Buenos tardes</h1>";
+            }else{
+                echo "<h1>Buenas noches</h1>";
             }
+
             
-            else {
-                echo "<h1>Buenas tardes</h1>";
-            }
         ?>
     </div>
 </body>
