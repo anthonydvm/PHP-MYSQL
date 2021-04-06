@@ -26,9 +26,11 @@
         <?php
             $hora = 8;
 
-            if($hora > 6 && $hora < 12){
+            if ($hora > 6 && $hora < 12){
                 echo "<h1>Buenos dias</h1>";
-            }else{
+            }
+            
+            else {
                 echo "<h1>Buenas tardes</h1>";
             }
         ?>
