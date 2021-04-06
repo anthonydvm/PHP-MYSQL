@@ -21,5 +21,21 @@
     $edad = array("Cincuenta", 50, "Diez", 10);
 
     print_r ($carros);
+    echo "<br>";
 
+    //Funciones para strings
+
+    $mensaje = "Hola bienvenido a programacion en php";
+
+    //cantidad de caracteres
+    echo strlen($mensaje);
+    echo "<br>";
+
+    //cantidad de palabras
+    echo str_word_count($mensaje);
+    echo "<br>";
+
+    //Texto alrevez
+    echo str_rrev($mensaje);
+    echo "<br>";
 ?>
