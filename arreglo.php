@@ -30,8 +30,22 @@
 
     echo "<br>";
 
-    //for($i = 0; i ){}
+    for($i = 0; $i < count($frutas); $i++ ){
+        
+        echo "<h1>$frutas[$i]</h1>";
+    }
 
+    $edades = array("Anthony" => 26, "John" => 22, "Ilay" => 1);
+    
+    print_r($edades);
+    echo "<br>";
+    echo $edades['Anthony'];
+    echo "<br>";
+
+    foreach($edades as $key => $value){
+        echo $key . "tiene el valor de " . $value . "<br>";
+    }
     ?>
+    
 </body>
 </html>
