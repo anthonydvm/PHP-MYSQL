@@ -2,7 +2,7 @@
 
     $servidor = 'localhost';
     $username = 'root';
-    $password = 'anthonydavid2';
+    $password = '';
     $db = "todolistDB";
 
     $conexion = new mysqli($servidor, $username, $password, $db);
@@ -11,8 +11,8 @@
         die("Se encontro el siguiente error: " . $conexion -> connect_error);
     }
 
-    /* CREACI[ON DE DATA DE BASE
-   
+     //CREACION DE DATA DE BASE
+   /*
    $sql = "CREATE DATABASE todolistDB";
 
     if($conexion->query($sql) === true){
